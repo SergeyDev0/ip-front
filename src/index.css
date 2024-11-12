@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body, #root {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a, input::placeholder, button, input {
+  font-family: "Open Sans", sans-serif;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+section {
+  width: 1200px;
+  margin: auto;
+}
+
+.firstscreen {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 70px - 2rem);
+  position: relative;
+  margin-top: 2rem;
+}
+
+.firstscreen__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.2;
+}
+
+.firstscreen__subtitle {
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.firstScreen__description {
+  font-weight: 300;
+  font-size: 24px;
+  margin-top: 70px;
+  line-height: 1.4;
+}
+
+.firstscreen__img {
+  position: absolute;
+  right: 0;
+}
+
+.firstscreen__img img {
+  width: 600px;
+}
